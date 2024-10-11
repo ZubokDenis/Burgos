@@ -108,3 +108,109 @@ button{
     text-align: center;
     color: #faf9f9;
 }
+.banner{
+    background-image: url('../img/Banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 100px 100px;
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+.marker{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 129%;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #f37335;
+    display: inline-block;
+    padding: 5px 18.5px;
+    border-radius: 14px;
+}
+.banner>h2{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 127%;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.text-banner{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #faf9f9;
+    max-width: 308px;
+    margin-bottom: 15px;
+}
+.banner>button{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 129%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1e2f40;
+    padding: 20px 26px;
+    background: #fbb731;
+    border-radius: 5px;
+}
+.burgers>h2{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 127%;
+    text-transform: uppercase;
+    color: #1b2a49;
+    margin-bottom: 34px;
+}
+.burgers-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.burgers-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.burgers-item>h3{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 127%;
+    text-align: center;
+    color: #1b2a49;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.burgers-item>p{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #979797;
+    margin-bottom: 20px;
+}
+.burgers-item>button{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 129%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1e2f40;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    background: #fbb731;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.burgers-item>button>img{
+    margin-right: 10px;
+}
