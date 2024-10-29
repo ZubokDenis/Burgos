@@ -99,7 +99,7 @@ button{
     color: #fff;
     margin-bottom: 11px;
 }
-.header-bottom>.header-bottom-text{
+.header-bottom-text{
     max-width: 320px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
@@ -240,7 +240,7 @@ footer{
 .footer{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+
 }
 .info{
 
@@ -301,4 +301,330 @@ footer{
     line-height: 190%;
     text-transform: uppercase;
     color: #fbb731;
+}
+.burger-menu{
+    display: none !important;
+}
+.modal{
+    display: none;
+}
+.header{
+    background: linear-gradient(180deg, #0c4c7b 0%, #1e2f40 100%);
+    padding: 170px 0;
+}
+.time{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 127%;
+    text-transform: uppercase;
+    color: #fbb731;
+    margin-bottom: 10px;
+}
+.title-main{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 117%;
+    text-transform: uppercase;
+    color: #faf9f9;
+    max-width: 580px;
+    margin-bottom: 40px;
+}
+.ad{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 140%;
+    color: #dedede;
+    max-width: 522px;
+    margin-bottom: 42px;
+}
+.header-banner button{
+    border-radius: 4px;
+    background: #fbb731;
+    padding: 20px 47px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 123%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1e2f40;
+}
+.header-banner{
+    position: relative;
+}
+.burger-bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.burger-bg img{
+    width: 829px;
+    height: 861px;
+    position: absolute;
+    top: 0;
+    right: 218px;
+    z-index: 1;
+}
+.linegradient{
+    width: 432px;
+    height: 860px;
+    background: linear-gradient(2deg, #f37335 0%, #fbb731 100%, #fdc830 100%);
+    position: absolute;
+    top: 0;
+    right: 388px;
+    z-index: 0;
+}
+.discount-free{
+    padding: 185px 0;
+    display: flex;
+ 
+}
+.discount{
+    background-image: url('../img/discount-bg.png');
+    /*padding: 116px 152px 116px 50px;*/
+    padding-top: 116px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 116px;
+    width: 580px;
+    margin-right: 20px;
+}
+.discount button{
+    border-radius: 14px;
+    background: #f37335;
+    padding: 5px 18px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 129%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.discount h2{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 127%;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.discount p{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #faf9f9;
+    max-width: 392px;
+}
+.free{
+    background-image: url(../img/free.png);
+    width: 580px;
+    padding-top: 102px;
+    padding-left: 50px;
+
+}
+.free p{
+    max-width: 300px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #faf9f9;
+    margin-bottom: 20px;
+}
+.free h3{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 127%;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.free button{
+    padding: 20px 48px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 129%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1e2f40;
+    border-radius: 5px;
+    background: #fbb731;
+}
+
+/* adaptiv */
+@media (max-width:768px) {
+    .container{
+        padding: 0 15px;
+    }
+    .menu>li {
+        margin-right: 22px;
+    }
+
+    .header-bottom{
+        background-position: center;
+    }
+    .banner{
+        background-position-x: -74px;
+        padding-left: 40px;
+        margin-top: 72px;
+        margin-bottom: 80px;
+    }
+    .burgers-item>img{
+        width: 359px;
+    }
+    .basic{
+        margin-right: 86px;
+        margin-left: 77px;
+        margin-top: 0px;
+    }
+    .info-basic{
+        margin-right: 0;
+    }
+    .tel{
+        margin-left: 77px;
+        margin-top: 13px;
+    }
+}
+@media (max-width:320px) {
+    .container{
+        max-width: 290px;
+    }
+    .burger-menu{
+        display: flex !important;
+    }
+    .menu{
+        display: none;
+    }
+    .logo img{
+        width: 116px;
+    }
+    .burgers-item>img {
+        width: 139px;
+    }
+    .burgers-item>h3{
+        font-size: 13px;
+        margin-top: 7px;
+    }
+    .burgers-item>p{
+        margin-bottom: 7px;
+    }
+    .burgers-item>button{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .tel {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .basic {
+        margin-right: 0px;
+        margin-left: -64px;
+        margin-top: 29px;
+    }
+    .header-bottom{
+        padding-top: 55px;
+        padding-bottom: 55px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .header-bottom h1{
+        font-size: 38px;
+    }
+    .mainmenu{
+        font-size: 12px;
+    }
+    .header-bottom-text{
+        font-size: 12px;
+    }
+    .header-bottom{
+        background-image: url('../img/baner-320.png');
+    }
+    .banner{
+        margin-top: 33px;
+        margin-bottom: 50px;
+        padding-top: 34px;
+        padding-bottom: 34px;
+        padding-left: 15px;
+        background-image: url('../img/banner-320.png');
+        background-position-x: unset;
+    }
+    .text-banner{
+        max-width: 247px;
+    }
+    .marker{
+        margin-bottom: 3px;
+    }
+    .banner button{
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+    .burgers h2{
+        font-size: 27px;
+        margin-bottom: 24px;
+    }
+    .tel{
+        order: -1;
+        margin-left: 51px;
+    }
+    .info-basic{
+        margin-top: 33px;
+        margin-left: -64px;
+    }
+    footer{
+        padding: 61px 0;
+    }
+    .modal{
+        display: none;
+        position: absolute;
+        top: 20px;
+        background: #fff8dc;
+        padding: 40px 0;
+        width: 100%;
+    }
+    .close{
+        background: transparent;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    .menu-modal{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu-modal li{
+        margin-bottom: 23px;
+    }
+    .menu-modal li:last-child{
+        margin-bottom: 0;
+    }
+    .menu-modal li a{
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 120%;
+        color: #443737;
+    }
+    .active{
+        
+        position: relative;
+    }
+    .active::after{
+        position: absolute;
+        content: '';
+        width: 100%;
+        border-radius: 1px;
+        border-bottom: 1px solid #ffc725;
+        bottom: 0px;
+        left: 0px;
+    }
 }
