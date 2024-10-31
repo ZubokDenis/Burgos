@@ -340,7 +340,7 @@ footer{
     max-width: 522px;
     margin-bottom: 42px;
 }
-.header-banner button{
+.header-banner a{
     border-radius: 4px;
     background: #fbb731;
     padding: 20px 47px;
@@ -371,28 +371,29 @@ footer{
 }
 .linegradient{
     width: 432px;
-    height: 860px;
+    height: 823px;
     background: linear-gradient(2deg, #f37335 0%, #fbb731 100%, #fdc830 100%);
     position: absolute;
     top: 0;
     right: 388px;
     z-index: 0;
+    
 }
 .discount-free{
     padding: 185px 0;
     display: flex;
- 
+    justify-content: space-between;
 }
 .discount{
     background-image: url('../img/discount-bg.png');
-    /*padding: 116px 152px 116px 50px;*/
     padding-top: 116px;
     padding-left: 50px;
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 116px;
     width: 580px;
-    margin-right: 20px;
+    box-sizing: border-box;
+    
 }
 .discount button{
     border-radius: 14px;
@@ -428,6 +429,7 @@ footer{
     width: 580px;
     padding-top: 102px;
     padding-left: 50px;
+    box-sizing: border-box;
 
 }
 .free p{
@@ -439,7 +441,7 @@ footer{
     color: #faf9f9;
     margin-bottom: 20px;
 }
-.free h3{
+.free h2{
     font-family: "Nunito Sans", sans-serif;
     font-weight: 700;
     font-size: 44px;
@@ -493,6 +495,109 @@ footer{
         margin-left: 77px;
         margin-top: 13px;
     }
+    footer{
+        padding: 60px 0 70px 0 ;
+    }
+
+    .time{
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 124%;
+        text-transform: uppercase;
+        color: #fbb731;
+        margin-bottom: 7px;
+    }
+    .title-main{
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 800;
+        font-size: 86px;
+        line-height: 117%;
+        text-transform: uppercase;
+        color: #faf9f9;
+        margin-bottom: 28px;
+    }
+    .ad{
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        color: #dedede;
+        max-width: 385px;
+    }
+    .header-banner a{
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 123%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #1e2f40;
+    }
+    .header{
+        padding-top: 42px ;
+        padding-bottom: 122px;
+    }
+    .linegradient{
+        position: absolute;
+        right: 15px;
+        width: 198px;
+        height: 527px;  
+    }
+    .burger-bg img{
+        width: 496px;
+        height: 512px;
+        top: 100px;
+        right: -121px;
+    }
+    .discount-free{
+        padding: 106px 0;
+    }
+    .discount{
+        width: 362px;
+        padding-top: 44px;
+        padding-bottom: 44px;
+        padding-left: 30px;
+        background-image: url('../img/discount-768.png');
+        background-position-x: -20px ;
+    }
+    .free{
+        width: 362px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 30px;
+        background-image: url('../img/free-768.png');
+    }
+    .discount h2{
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 127%;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 10px;
+
+    }
+    .discount p{
+        max-width: 280px;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        color: #faf9f9;
+    }
+    .discount button{
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 129%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 6px;
+    }
+    
+    
 }
 @media (max-width:320px) {
     .container{
