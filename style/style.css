@@ -43,6 +43,8 @@ button{
 .menu>li:last-child{
     margin-right: 0;
 }
+
+
 .menu>li>a{
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
@@ -732,4 +734,110 @@ footer{
         bottom: 0px;
         left: 0px;
     }
+    .linegradient{
+        display: none;
+    }
+    .time{
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 195%;
+        text-transform: uppercase;
+        color: #fbb731;
+        margin-bottom: 12px;
+    }
+    .title-main{
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 800;
+        font-size: 58px;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: #faf9f9;
+        margin-bottom: 21px;
+    }
+    .ad{
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        color: #dedede;
+        max-width: 275px;
+    }
+    .discount-free{
+        flex-wrap: wrap;
+        margin-bottom: 61px;
+        padding-top: 95px;
+        padding-bottom: 61px;  
+    }
+    .discount{
+        margin-bottom: 22px;
+        padding-top: 40px;
+        padding-bottom: 58px;
+        padding-left: 15px;
+        background-position-x: 0;
+    }
+    .burger-bg img{
+        width: 298px;
+        height: 297px;
+        top: 306px;
+    }
+    .header{
+        padding-bottom: 166px;
+        padding-top: 42px;
+    }
+    .dis-free .container{
+        max-width: none; 
+        padding: 0; 
+        margin: 0; 
+    }
+    .discount h2{
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 138%;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 4px;
+    }
+    .discount p{
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 150%;
+        color: #faf9f9;
+        max-width: 247px;
+    }
+    .free{
+        padding-top: 35px;
+        padding-bottom: 45px;
+        padding-left: 12px;
+        background-image: url('../img/free-320.png');
+    }
+    .free h2{
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 700;
+        font-size: 39px;
+        line-height: 144%;
+        color: #fff;
+        margin-bottom: 8px;
+    }
+    .free p{
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+        color: #faf9f9;
+        margin-bottom: 18px;
+    }
+    .free button{
+        padding: 18px 31px;
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 123%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #1e2f40;
+    }
+
 }
